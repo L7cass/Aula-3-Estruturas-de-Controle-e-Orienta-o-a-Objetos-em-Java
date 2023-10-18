@@ -1,0 +1,63 @@
+package Principal;
+
+import java.util.Scanner;
+
+public class Mês {
+
+	public static void main(String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+		int numeroMes;
+		String nomeMes;
+		System.out.println("Digite o numero correspondente ao mês (1 a 12): ");
+		numeroMes = scanner.nextInt();
+
+		switch (numeroMes) {
+		case 1:
+			nomeMes = "Janeiro";
+			break;
+		case 2:
+			nomeMes = "Fevereiro";
+			break;
+		case 3:
+			nomeMes = "Março";
+			break;
+		case 4:
+			nomeMes = "Abril";
+			break;
+		case 5:
+			nomeMes = "Maio";
+			break;
+		case 6:
+			nomeMes = "Junho";
+			break;
+		case 7:
+			nomeMes = "Julho";
+			break;
+		case 8:
+			nomeMes = "Agosto";
+			break;
+		case 9:
+			nomeMes = "Setembro";
+			break;
+		case 10:
+			nomeMes = "Outubro";
+			break;
+		case 11:
+			nomeMes = "Novembro";
+			break;
+		case 12:
+			nomeMes = "Dezembro";
+			break;
+			default: 
+			nomeMes = "Inválido";
+			break;
+			
+		}
+	
+
+		System.out.println("mês : " + nomeMes);
+
+	}
+
+}
